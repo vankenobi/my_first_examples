@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <math.h>
 using namespace std;
@@ -14,7 +15,7 @@ int main()
 	cout << "Lutfen ikinci sayinin y degerini giriniz: ";
 	cin >> y2;
 	sonuc = sqrt(pow((x2 - x1),(2)) + pow((y2 - y1),(2)));
-	
+	cout << "SONUCUNUZ : ";
 	cout << sonuc<<endl;
 	
 
