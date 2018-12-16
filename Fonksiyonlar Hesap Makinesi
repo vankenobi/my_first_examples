@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+int sayi1;
+int sayi2;
+int islem;
+int sonuc;
+int dortislem(int sayi1, int sayi2 , int islem,int sonuc) 
+{
+	if (islem == 1)
+	{
+		cout << "Toplama islemini sectiniz ve sonucunuz : ";
+		sonuc = sayi1 + sayi2;
+		cout << sonuc;
+	}
+	else if (islem == 2)
+	{
+		cout << "Cikarma islemini sectiniz ve sonucunuz : ";
+		sonuc = sayi1 - sayi2;
+		cout << sonuc;
+	}
+	else if (islem == 3)
+	{
+		cout << "Carpma islemini sectiniz ve sonucunuz : ";
+		sonuc = sayi1 * sayi2;
+		cout << sonuc;
+	}
+	else if (islem == 4)
+	{
+		cout << "Bolme islemini sectiniz ve sonucunuz : ";
+		sonuc = sayi1 / sayi2;
+		cout << sonuc <<endl;
+	}
+	return sonuc;
